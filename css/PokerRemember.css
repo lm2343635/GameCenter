@@ -1,0 +1,103 @@
+#main
+{
+	width: 900px;
+	height: 400px;
+	background: #cecece;
+	position: absolute;
+}
+
+#select
+{
+	width: 900px;
+	height: 400px;
+	background: yellow;
+	position: absolute;
+}
+
+.card
+{
+	position: absolute;
+	width: 58px;
+	height: 98px;
+	background: #efefef;
+	border: 2px solid #bbbbbb; 
+	cursor: pointer;
+}
+
+.cardClick
+{
+	position: absolute;
+	width: 58px;
+	height: 98px;
+	background: #555555;
+	border: 2px solid #bbbbbb; 
+	cursor: pointer;
+}
+
+.cardClickHalf
+{
+	position: absolute;
+	width: 58px;
+	height: 98px;
+	background-image:url(../images/poker/cardClickHalf.png);
+	border: 2px solid #bbbbbb; 
+	cursor: pointer;
+}
+
+.card:hover,.joker:hover
+{
+	background: #cecece;
+}
+
+.joker
+{
+	position: absolute;
+	width: 116px;
+	height:198px;
+	background: #efefef;
+	border: 2px solid #bbbbbb; 
+	cursor: pointer;
+}
+
+.jokerClick
+{
+	position: absolute;
+	width: 116px;
+	height:198px;
+	background: #555555;
+	border: 2px solid #bbbbbb; 
+	cursor: pointer;
+}
+
+.jokerClickHalf
+{
+	position: absolute;
+	width: 116px;
+	height:198px;
+	background-image:url(../images/poker/jokerClickHalf.png);
+	border: 2px solid #bbbbbb; 
+	cursor: pointer;
+}
+
+.pattern
+{
+	width: 50px;
+	height: 50px;
+	margin: 5px auto;
+}
+
+.pattern img
+{
+	width: 50px;
+	height: 50px;
+}
+
+.figure
+{
+	width: 35px;
+	height: 35px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 30;
+}
+

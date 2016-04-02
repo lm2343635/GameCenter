@@ -1,0 +1,71 @@
+#main
+{
+	position:absolute;
+	height:480px;
+	width:800px;
+	background-image: url(../images/bird/birdbg.jpg);
+	cursor: pointer;
+}
+
+#panel
+{
+	width: 800px;
+	position: absolute;
+	top: 500px;
+}
+
+button
+{
+	width: 400px;
+	height: 60px;
+	float: left;
+}
+
+#tip
+{
+	position: absolute;
+	font-size: 20;
+	color: red;
+	display: none;
+}
+
+.pillar
+{
+	height: 480px;
+	width: 80px;
+	position: absolute;
+	display: none;
+}
+
+.top,.top-head,.bottom-head,.bottom
+{
+	width: 80px;
+	background: red;
+	position: absolute;
+}
+
+.top-head,.bottom-head
+{
+	height:40px;
+	background-image: url(../images/bird/pillarhead.jpg);
+}
+
+.bottom
+{
+	bottom: 0px;
+}
+
+.top,.bottom
+{
+	background:url(../images/bird/pillar.jpg) top repeat-y; 
+	margin:0;
+}
+
+#bird
+{
+	height: 10px;
+	width: 10px;
+	background-image:url(../images/bird/bird.jpg);
+	position: absolute;
+	left: 395px;
+}

@@ -1,0 +1,418 @@
+body
+{
+	background-color: #eeeeee;
+}
+
+#main
+{
+	position:absolute;
+	width: 704px;
+	height:704px;
+}
+
+#info
+{
+	width: 200px;
+	height:70px;
+	position:absolute;
+	background-color: #aaaaaa;
+	left:750px;
+}
+
+#tiger
+{
+	width: 700px;
+	height:700px;
+	float: left;
+	background-color: #eeeeee;
+	position: absolute;
+	border:2px solid #aaaaaa;
+}
+
+#panel
+{
+	width: 496px;
+	height: 496px;
+	position:absolute;
+	background: pink;
+	border:2px solid #aaaaaa;
+	left: 102px;
+	top:102px;
+}
+
+.block
+{
+	background-color:#cecece;
+	position:absolute;
+	background-repeat:no-repeat;
+	background-position:center;
+	border:2px solid #aaaaaa;
+	width: 96px;
+	height: 96px;
+}
+
+#bigOrange1
+{
+	background-image: url(../images/tiger/orange.png);
+}
+
+#bigOrange2
+{
+	background-image: url(../images/tiger/orange.png);
+	bottom: 0px;
+	right: 0px;
+}
+
+#smallOrange
+{
+	background-image: url(../images/tiger/s_orange.png);
+	right: 0px;
+	bottom: 100px;
+}
+
+#smallAlarm
+{
+	background-image: url(../images/tiger/s_alarm.png);
+	top: 100px;
+}
+
+#bigAlarm1
+{
+	background-image: url(../images/tiger/alarm.png);
+	left: 100px;
+}
+
+#bigAlarm2
+{
+	background-image: url(../images/tiger/alarm.png);
+	bottom: 0px;
+	right:100px;
+}
+
+#smallApple
+{
+	background-image: url(../images/tiger/s_apple.png);
+	right: 100px;
+}
+
+#bigApple1
+{
+	background-image: url(../images/tiger/apple.png);
+	top: 200px;
+}
+
+#bigApple2
+{
+	background-image: url(../images/tiger/apple.png);
+	right: 200px;
+}
+
+#bigApple3
+{
+	background-image: url(../images/tiger/apple.png);
+	left: 200px;
+	bottom: 0px;
+}
+
+#bigApple4
+{
+	background-image: url(../images/tiger/apple.png);
+	right: 0px;
+	bottom: 200px;
+}
+
+#cha1
+{
+	background-image: url(../images/tiger/cha.png);
+	top:300px;
+}
+
+#cha2
+{
+	background-image: url(../images/tiger/cha.png);
+	top:300px;
+	right:0px;
+}
+
+#smallBar
+{
+	background-image: url(../images/tiger/cha.png);
+}
+
+#bigBar
+{
+	background-image: url(../images/tiger/bar.png);
+	left:300px;
+}
+
+#smallBar
+{
+	background-image: url(../images/tiger/s_bar.png);
+	left:200px;
+}
+
+#big77
+{
+	background-image: url(../images/tiger/77.png);
+	bottom: 0px;
+	right: 300px;
+}
+
+#samll7
+{
+	background-image: url(../images/tiger/s_77.png);
+	bottom: 0px;
+	right: 200px;
+}
+
+#bigStar
+{
+	background-image: url(../images/tiger/star.png);
+	bottom: 100px;
+}
+
+#smallStar
+{
+	background-image: url(../images/tiger/s_star.png);
+	bottom: 200px;
+}
+
+#twoWatermelon
+{
+	background-image: url(../images/tiger/watermelons.png);
+	right: 0px;
+	top: 100px;
+}
+
+#smallWatermelon
+{
+	background-image: url(../images/tiger/s_watermelons.png);
+	right: 0px;
+	top: 200px;
+}
+
+#bigCoconut1
+{
+	background-image: url(../images/tiger/coconut.png);
+	bottom: 0px;
+}
+
+#bigCoconut2
+{
+	background-image: url(../images/tiger/coconut.png);
+	right: 0px;
+}
+
+#smallCoconut
+{
+	background-image: url(../images/tiger/s_coconut.png);
+	bottom: 0px;
+	left:100px;
+}
+
+#start
+{
+	right:96px;
+	bottom:40px;
+}
+
+#reset
+{
+	left:100px;
+	bottom:40px;
+}
+
+.button
+{
+	position: absolute;
+	width: 146px;
+	height:46px;
+	background: #cecece;
+	border:2px solid #aaaaaa;
+	cursor: pointer;
+}
+
+.button:hover
+{
+	background: #bbbbbb;
+}
+
+.button p
+{
+	text-align: center;
+}
+
+#select
+{
+	position: absolute;
+	width: 300px;
+	height:200px;
+	bottom: 100px;
+	left:100px;
+}
+
+.smallBlock
+{
+	position: absolute;
+	width: 73px;
+	height: 73px;
+	background: yellow;
+	background-position: center;
+	background-repeat: no-repeat;
+	border:2px solid #aaaaaa;
+	cursor: pointer;
+}
+
+.smallBlock:hover
+{
+	background: orange;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#s_watermelon
+{
+	right: 0px;
+	bottom:2px;
+	background-image: url(../images/tiger/b_watermelons.png);
+}
+
+#s_star
+{
+	right: 75px;
+	bottom:100px;
+	background-image: url(../images/tiger/b_star.png);	
+}
+
+#s_apple
+{
+	right: 0px;
+	bottom:100px;
+	background-image: url(../images/tiger/b_apple.png);		
+}
+
+#s_bar
+{
+	bottom:100px;
+	background-image: url(../images/tiger/b_bar.png);
+}
+
+#s_orange
+{
+	right: 75px;
+	bottom:2px;
+	background-image: url(../images/tiger/b_orange.png);
+}
+
+#s_77
+{
+	left:75px;
+	bottom:100px;
+	background-image: url(../images/tiger/b_77.png);
+}
+#s_coconut
+{
+	left: 75px;
+	bottom:2px;
+	background-image: url(../images/tiger/b_coconut.png);
+}
+
+#s_alarm
+{
+	bottom:2px;
+	background-image: url(../images/tiger/b_alarm.png);
+}
+
+.numberBlock
+{
+	position: absolute;
+	width: 73px;
+	height: 21px;
+	border:2px solid #aaaaaa;
+	background-color: #cecece;
+	text-align: center;
+}
+
+#n_bar
+{
+	
+}
+
+#n_77
+{
+	left:75px;
+}
+
+#n_star
+{
+	right: 75px;
+}
+
+#n_apple
+{
+	right: 0px;
+}
+
+#n_alarm
+{
+	top:98px;
+}
+
+#n_coconut
+{
+	top:98px;
+	left:75px;
+}
+
+#n_orange
+{
+	top:98px;
+	right:75px;
+}
+
+#n_watermelon
+{
+	top:98px;
+	right:0px;
+}
+
+#money
+{
+	width: 300px;
+	height: 100px;
+	position:absolute;
+	left:100px;
+	top:100px;
+	background-color: #cecece;
+}
+
+.title
+{
+	width: 146px;
+	height: 20px;
+	position: absolute;
+	border:2px solid #aaaaaa;
+	text-align: center;
+}
+
+#thisMoney .title
+{
+	right:0px;
+	width: 148px;
+}
+
+.content
+{
+	position: absolute;
+	width: 146px;
+	height:94px;
+	top:22px;
+	border:2px solid #aaaaaa;
+	text-align: center;
+}
+
+#thisMoney .content
+{
+	right: 0px;
+	width: 148px;
+}

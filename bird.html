@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Bird</title>
+		<link rel="stylesheet" href="css/bird.css">
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="js/bird.js"></script>
+	</head>
+	<body>
+		<div id="main" onclick="jump()" onmouseover="showTip()" onmouseout="hideTip()">
+			<div id="tip">Click to jump</div>
+			<div id="pillar0" class="pillar">
+				<div class="top"></div>
+				<div class="top-head"></div>
+				<div class="bottom-head"></div>
+				<div class="bottom"></div>
+			</div>
+			<div id="pillar1" class="pillar">
+				<div class="top"></div>
+				<div class="top-head"></div>
+				<div class="bottom-head"></div>
+				<div class="bottom"></div>
+			</div>
+			<div id="pillar2" class="pillar">
+				<div class="top"></div>
+				<div class="top-head"></div>
+				<div class="bottom-head"></div>
+				<div class="bottom"></div>
+			</div>
+			<div id="pillar3" class="pillar">
+				<div class="top"></div>
+				<div class="top-head"></div>
+				<div class="bottom-head"></div>
+				<div class="bottom"></div>
+			</div>
+			<div id="bird"></div>
+		</div>
+		<div id="panel">
+			<button id="start" onclick="start()">start</button>
+			<button id="stop" onclick="stop()">stop</button>
+		</div>
+		<div id="parameter">
+			t=<span id="t"></span><br>
+			v=<span id="v"></span><br>
+			s=<span id="s"></span><br>
+			ds=<span id="ds"></span><br>
+			SpaceTop=<span id="SpaceTop"></span><br>
+			SpaceBottom=<span id="SpaceBottom"></span><br>
+		</div>
+	</body>
+</html>
